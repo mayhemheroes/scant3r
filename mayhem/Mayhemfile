@@ -1,0 +1,8 @@
+project: scant3r
+target: fuzz-scant3r
+
+image: ghcr.io/matl4c/fuzz-scant3r:latest
+
+cmds:
+  - cmd: /src/mayhem/fuzz-scant3r.py
+    libfuzzer: true
