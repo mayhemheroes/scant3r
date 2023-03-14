@@ -1,0 +1,6 @@
+project: scant3r
+target: fuzz-scant3r
+
+cmds:
+  - cmd: /src/mayhem/fuzz-scant3r.py
+    libfuzzer: true
